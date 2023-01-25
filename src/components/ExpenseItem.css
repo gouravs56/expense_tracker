@@ -1,0 +1,60 @@
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem; /* rem= root element .its dynamic &responsive  1rem=16px */
+  margin: 1rem 0;
+  background-color: rgb(148, 37, 170);
+  color: rgb(245, 243, 243);
+  border-radius: 0.5rem;
+  box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem rgb(231, 190, 235) inset;
+}
+#time{
+  margin-left: 1.5rem;
+}
+#title-history{
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+#inp{
+  margin-left: 4.5rem;
+  width: 6rem;
+}
+#btn{
+  margin-left: 2rem;
+}
+.expense-item h2 {
+  color: aliceblue;
+  font-size: 1rem;
+  flex: 1;
+  margin: 0 1rem;
+}
+.expense-item-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-end;
+  flex-flow: column-reverse;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.expense-item-price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(108, 23, 124);
+  background-color: rgb(231, 190, 235);
+  border: 0.1rem solid aliceblue;
+  padding: .3rem .7rem;
+  border-radius: .7rem;
+  margin-right: 2rem;
+  margin-left: 1rem;
+}
+@media (min-width: 50rem) {
+  .expense-item-desc {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+  }
+}

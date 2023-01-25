@@ -1,0 +1,38 @@
+.new-expense-control {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  text-align: center;
+  padding: 0% 12%;
+}
+
+#total {
+  margin-top: -0.3rem;
+}
+.new-expense-control input {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.new-expense-control #title-id {
+  width: 51%;
+}
+.new-expense-control #amount-id {
+  width: 38%;
+}
+.new-expense-control #date-id {
+  width: 51%;
+}
+
+.new-expense-action #btnn {
+  text-align: center;
+  margin-bottom: 0px;
+  color: rgb(237, 201, 237);
+  border-color: rgb(215, 177, 215);
+  background-color: rgb(148, 37, 170);
+}
+
+#btnn:hover {
+  background-color: rgb(134, 104, 183);
+  color: rgb(237, 226, 239);
+  border: 2px solid rgba(66, 52, 89, 0.569);
+}

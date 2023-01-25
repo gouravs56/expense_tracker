@@ -1,0 +1,17 @@
+.new-expense {
+  background-color: rgb(231, 190, 235);
+  padding: 2rem 1rem 2rem;
+  margin: 3rem auto;
+  width: fit-content;
+  /* width:33%; */
+  max-width: 95%;
+  /* text-align: center ; */
+  border-radius: 1rem;
+  text-align: center;
+  color: rgb(127, 43, 143);
+  font-weight: 420;
+  border-radius: 1.5rem;
+  box-shadow: 0.1rem 0.1rem 1rem 0.1rem rgb(204, 66, 216) inset;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

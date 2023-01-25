@@ -1,0 +1,17 @@
+ .expenses{
+    padding: 1rem;
+    background-color:rgb(231, 190, 235);
+    margin: 3rem auto;
+    width:fit-content;   /* check this out */
+    border-radius: 1.4rem;
+    box-shadow: .1rem .1rem 1rem .1rem rgb(204, 66, 216) inset;
+ } 
+
+ 
+ .expenses #expense-history{
+ text-align: center;
+ margin-top: 0.5rem;
+ margin-bottom: 0.5rem;
+ color: rgb(127, 43, 143);
+
+ }
